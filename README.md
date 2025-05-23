@@ -1,6 +1,6 @@
 # famxplor-family-travel-mcp-server
 
-The first MCP dedicated to families who travel with their kids. 
+The first MCP server dedicated to families who travel with their kids. 
 Find activities tested by families worldwide from [Famxplor](https://famxplor.com)
 
 ## API Key
@@ -17,6 +17,18 @@ Edit `claude_desktop_config.json` and add:
     "famxplor": {
       "command": "npx",
       "args": ["mcp-remote", "https://mcp.famxplor.com/mcp/"]
+    }
+  }
+}
+```
+
+For MCP clients supporting remote streamable-http servers, configuration looks like:
+
+```json
+{
+  "mcpServers": {
+    "famxplor": {
+      "url": "https://mcp.famxplor.com/mcp/"
     }
   }
 }
