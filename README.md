@@ -3,9 +3,16 @@
 The first MCP server dedicated to families who travel with their kids. 
 Find activities tested by families worldwide from [Famxplor](https://famxplor.com)
 
+## Free to use
+
+Famxplor MCP server is free for personal use, like the [family activities world map](https://famxplor.com/app) of Famxplor.
+For commercial use, see the [Famxplor API page](https://famxplor.com/api).
+
 ## API Key
 
-See [Famxplor Family Travel API](https://famxplor.com/api) to get an API key
+No API key is needed when using the remote MCP server at https://mcp.famxplor.com/mcp/
+
+Local use and development require an API key, see [Famxplor Family Travel API](https://famxplor.com/api) to get one.
 
 ## Add to Claude Desktop
 
@@ -22,7 +29,7 @@ Edit `claude_desktop_config.json` and add:
 }
 ```
 
-For MCP clients supporting remote streamable-http servers, configuration looks like:
+For MCP clients supporting remote streamable-http servers, the configuration looks like:
 
 ```json
 {
@@ -34,8 +41,14 @@ For MCP clients supporting remote streamable-http servers, configuration looks l
 }
 ```
 
-## Run the server manually
+## Development
 
+Setup environment:
+```shell
+uv sync
+```
+
+Run the server with:
 ```shell
 FAMXPLOR_API_KEY="<your Famxplor API key>" uv run server.py
 ```
