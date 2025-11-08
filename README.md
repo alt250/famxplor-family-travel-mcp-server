@@ -3,6 +3,10 @@
 The first MCP server dedicated to families who travel with their kids. 
 Find activities tested by families worldwide from [Famxplor](https://famxplor.com)
 
+<a href="https://glama.ai/mcp/servers/@alt250/famxplor-family-travel-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@alt250/famxplor-family-travel-mcp-server/badge" alt="Famxplor Family Travel Activities MCP server" />
+</a>
+
 ## Free to use
 
 Famxplor MCP server is free for personal use, like the [family activities world map](https://famxplor.com/app) of Famxplor.
