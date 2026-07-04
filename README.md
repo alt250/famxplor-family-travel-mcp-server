@@ -10,8 +10,6 @@ For commercial use, see the [Famxplor API page](https://famxplor.com/api).
 
 ## API Key
 
-No API key is needed when using the remote MCP server at https://mcp.famxplor.com/mcp/
-
 Local use and development require an API key, see [Famxplor Family Travel API](https://famxplor.com/api) to get one.
 
 ## Add to Claude Desktop
