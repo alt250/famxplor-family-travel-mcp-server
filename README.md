@@ -12,33 +12,6 @@ For commercial use, see the [Famxplor API page](https://famxplor.com/api).
 
 Local use and development require an API key, see [Famxplor Family Travel API](https://famxplor.com/api) to get one.
 
-## Add to Claude Desktop
-
-Edit `claude_desktop_config.json` and add:
-
-```json
-{
-  "mcpServers": {
-    "famxplor": {
-      "command": "npx",
-      "args": ["mcp-remote", "https://mcp.famxplor.com/mcp/"]
-    }
-  }
-}
-```
-
-For MCP clients supporting remote streamable-http servers, the configuration looks like:
-
-```json
-{
-  "mcpServers": {
-    "famxplor": {
-      "url": "https://mcp.famxplor.com/mcp/"
-    }
-  }
-}
-```
-
 ## Development
 
 Setup environment:
